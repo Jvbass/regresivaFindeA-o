@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- google fonts  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:wght@700&display=swap"
+    rel="stylesheet">
+  <!-- estilos propios  -->
+  <link rel="stylesheet" href="css/style.css" />
+  <title>Cuenta Regresiva</title>
+</head>
+
+<body>
+  <main>
+    <h1>Cuenta regresiva para fin del año 2023</h1>
+
+    <div id="tiemporestante">
+      <p> <span id="dias">0</span> días <br> <span id="horas">0</span> horas <br>
+        <span id="minutos">0</span> minutos<br>
+        <span id="segundos">0</span> segundos
+      </p>
+    </div>
+    <div class="barra-progreso">
+      <progress id="barra-progreso" value="0" max="100"></progress>
+      <span id="porcentaje-progreso">0%</span>
+
+    </div>
+    <h2>Cargando año 2023</h2>
+  </main>
+  <script src="./js/script.js"></script>
+  <script src="./js/mostrarFecha.js"></script>
+</body>
+
+</html>

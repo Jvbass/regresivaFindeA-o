@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background-image: url("https://static.vecteezy.com/system/resources/previews/005/266/448/original/retro-futuristic-background-free-vector.jpg");
+    background-position: top;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    color: #E8E2E2;
+    height: 100vh;
+  }
+
+  h1{
+    color: #F99417;
+    font-size: 3rem ;
+    text-align: center;
+  }
+
+  p {
+    font-family: 'Press Start 2P';
+    text-align: start;
+    font-size: 1.5rem;
+    font-weight: 300;
+  }
+
+  span {
+    font-style: oblique;
+    font-weight: 700;
+    color:#F99417;
+    margin: 0 1px ;
+  }
+
+  #tiemporestante {
+    display: flex;
+    justify-content: center;
+    border: solid 1px  #F99417;
+    border-radius: 5px;
+    width: 500px;
+    padding: 2rem;
+    margin-top: 2rem;
+    box-shadow: 2px 2px 10px rgba(255, 255, 255, 0.4);
+    background-color: #7c2dc72a;
+  }
+
+  .barra-progreso {
+    margin-top: 3rem;
+    text-align: center;
+    position: relative;
+    height: 20px;
+  }
+
+  #porcentaje-progreso {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: .9rem;
+    line-height: 20px;
+    color: white;
+  }
+
+  progress {
+    width: 500px;
+  }
+
+  #barra-progreso {
+    border-radius: 15px;
+    height: 20px;
+    
+  }
+  
+  #barra-progreso::-webkit-progress-value {
+    background-color: #e6e33a;
+  }
+  
